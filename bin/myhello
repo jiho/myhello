@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import sys
 
@@ -7,4 +7,5 @@ if len(sys.argv) > 2:
 
 import myhello
 
-myhello.hello(sys.argv[1])
+print(myhello.hello(sys.argv[1]))
+print(myhello.goodbye(sys.argv[1]))
