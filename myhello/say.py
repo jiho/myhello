@@ -1,7 +1,5 @@
 def hello(x):
-    print("Hello "+x)
-    pass
+    return("Hello "+x)
     
 def goodbye(x):
-    print("Goodbye "+x)
-    pass
+    return("Goodbye "+x)

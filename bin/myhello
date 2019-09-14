@@ -5,7 +5,6 @@ import sys
 if len(sys.argv) > 2:
     print('Too many arguments')
 
-import myhellopy
+import myhello
 
-myhellopy.say_hello(sys.argv[1])
-
+myhello.hello(sys.argv[1])

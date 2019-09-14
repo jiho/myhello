@@ -6,17 +6,15 @@ import setuptools
 setuptools.setup(
     name='myhello',
     version='0.1',
-    # author='Example Author',
-    # author_email='author@example.com',
-    # description='A small example package',
+    description='A helloworld package',
+    url='https://github.com/jiho/myhello',
+    author='jiho',
+    author_email='jo.irisson@gmail.com',
+    license='GPL3',
     # long_description=long_description,
     # long_description_content_type='text/markdown',
-    # url='https://github.com/pypa/sampleproject',
     packages=setuptools.find_packages(),
-    classifiers=[
-        'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
-    ],
-    python_requires='>=3.6',
+    scripts=['bin/myhello']
+    # packages=['myhello'],
+    python_requires='>=3.6'
 )
